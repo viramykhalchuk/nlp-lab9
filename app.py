@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 from agent import ExamAgent
 from openai import (
@@ -190,6 +191,9 @@ with gr.Blocks(
         ]
     )
 
-
 if __name__ == "__main__":
-    demo.queue(default_concurrency_limit=1).launch()
+    port = int(os.environ.get("PORT", 7860))
+    demo.queue(default_concurrency_limit=1).launch(
+        server_name="0.0.0.0",
+        server_port=port
+    )
