@@ -1,0 +1,17 @@
+[
+  "Tokenization",
+  "Stemming and Lemmatization",
+  "Bag of Words",
+  "TF-IDF",
+  "Word Embeddings and Word2Vec",
+  "Recurrent Neural Networks (RNN)",
+  "LSTM and GRU",
+  "Attention Mechanism",
+  "Transformer Architecture",
+  "BERT and GPT",
+  "Text Classification",
+  "Sentiment Analysis",
+  "Large Language Models (LLM)",
+  "Prompt Engineering",
+  "LLM Agents and Tool Calling"
+]
